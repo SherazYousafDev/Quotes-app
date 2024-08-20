@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/3a7eb347c0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="quote-box">
+      <h2>Quote of the Day !</h2>
+      <blockquote id="quote">Loading.....</blockquote>
+      <span id="author">Loading....</span>
+      <div class="btn-group">
+        <ul>
+          <li id="sound"><i class="fa-solid fa-volume-high"></i></li>
+          <li id="copy"><i class="fa-solid fa-copy"></i></li>
+          <li id="twitter"><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+
+        <button onclick="getQuote(url)">New Quote</button>
+        <!-- <button onclick="forTweet()">
+          <i class="fa-brands fa-twitter"></i> Tweet
+        </button> -->
+      </div>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+  </body>
+</html>
